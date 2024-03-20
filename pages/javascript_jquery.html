@@ -38,9 +38,18 @@
             src="../assets/imgs/nav-logo.jpg"
             alt="company logo"
           />
-          <div class="nav-link-container">
+          <div class="nav-link-container flex">
             <a href="#">HOME</a>
-            <button id="inventory-btn">INVENTORY</button>
+            <div class="dropdown-menu-container">
+              <button id="inventory-btn">INVENTORY</button>
+              <ul id="dropdown-menu" class="dropdown-menu-hide">
+                <li class="dropdown-link">NEW</li>
+                <li class="dropdown-link">USED</li>
+                <li class="dropdown-link">CARS</li>
+                <li class="dropdown-link">TRUCKS</li>
+                <li class="dropdown-link">SUV'S</li>
+              </ul>
+            </div>
             <a href="#">ABOUT US</a>
             <a href="#">CONTACT</a>
           </div>
@@ -59,7 +68,7 @@
           My thought process here was again pretty straight forward, Design and
           code a simple yet functional and appealing Navigation menu that meets
           the requirements. First thing I did here was code up the HTML, then
-          add a bit of style using css. And finally add little JavaScript.
+          add a bit of style using CSS. And finally add little JavaScript.
         </p>
       </section>
     </container>
