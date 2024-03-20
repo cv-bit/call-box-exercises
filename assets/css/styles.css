@@ -246,6 +246,34 @@ a {
     margin: 10px;
 }
 
+/* Javascript / Jquery Navigation styles */
+/* ======================================================= */
+/* .Navigation-page-container {
+    flex: 1;
+} */
+
+.nav-logo {
+    height: 75px;
+}
+
+.Navigation-page-container > nav {
+    min-height: 10vh;
+    background-color: var(--black);
+    padding-right: 10px;
+}
+
+.nav-link-container > a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.nav-link-container > button {
+    color: #fff;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 /* here are some examples for css variables could use more like font sizes etc */
 /* css variables */
 /* ======================================================= */
