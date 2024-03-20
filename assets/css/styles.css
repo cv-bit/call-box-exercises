@@ -1,3 +1,4 @@
+/* this section are some sample for css resets */
 /* Resets the box size of every element */
 * {
     margin: 0;
@@ -39,7 +40,9 @@ a {
     cursor: pointer;
 }
 
+/* this is an example of how I could use utility classes to shorten css files */
 /* utility classes */
+/* ======================================================= */
 
 .main-bg-color {
     background-color: var(--main-color);
@@ -47,6 +50,7 @@ a {
 
 
 /* flex classes */
+/* ======================================================= */
 .flex {
     display: flex;
 }
@@ -76,11 +80,13 @@ a {
 }
 
 /* box model classes */
+/* ======================================================= */
 .padding-10 {
     padding: 10px;
 }
 
 /* font style classes */
+/* ======================================================= */
 .small-txt {
     font-size: 10px;
 }
@@ -102,6 +108,7 @@ a {
 }
 
 /* this will be main code for styles */
+/* ======================================================= */
 .header {
     min-height: 10vh;
 }
@@ -172,6 +179,7 @@ a {
 }
 
 /* staff page section */
+/* ======================================================= */
 .staff-page-section {
     flex: 1;
     border-top: 1px solid #000;
@@ -216,6 +224,7 @@ a {
 }
 
 /* graphic creation */
+/* ======================================================= */
 .graphic-creation-img {
     width: 100%;
     height: auto;
@@ -223,6 +232,7 @@ a {
 }
 
 /* hero */
+/* ======================================================= */
 .hero {
     flex: 1;
 }
@@ -236,7 +246,9 @@ a {
     margin: 10px;
 }
 
+/* here are some examples for css variables could use more like font sizes etc */
 /* css variables */
+/* ======================================================= */
 
 :root {
     --main-color: #5356FF;
@@ -245,7 +257,11 @@ a {
     --black: #222;
 }
 
+/* sample media queries typically I have seen anywhere from 2 to 4 sometimes more */
+/* also depends on how your development team approaches things like mobile first, these would obviously change */
+
 /* media query for medium screens */
+/* ======================================================= */
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -260,6 +276,7 @@ a {
 }
 
 /* media query for small screens */
+/* ======================================================= */
 @media screen and (max-width: 576px) {
     .staff-card > img {
         margin: 5px auto;
