@@ -1,5 +1,24 @@
 # call-box-exercises
 
+## links to all my responses
+
+### Exercise 1: HTML & CSS
+- [HTML](/pages/staff_page.html)
+- [CSS](/assets/css/styles.css)
+- [deployed site](https://cv-bit.github.io/call-box-exercises/pages/staff_page.html)
+
+### Exercise 2: Graphic Creation
+- [Graphic Slide](/assets/imgs/graphic-creation/graphic-creation-slide.jpg)
+- [deployed site](https://cv-bit.github.io/call-box-exercises/pages/graphic_creation.html)
+
+### Exercise 3: JavaScript / Jquery
+- [HTML](/pages/javascript_jquery.html)
+- [JavaScript](/assets/js/script.js)
+- [deployed site](https://cv-bit.github.io/call-box-exercises/pages/javascript_jquery.html)
+
+
+## Exercise Descriptions
+
 ## Exercise 1: HTML & CSS
 
 Using the data below, create a staff list page with only HTML & CSS. The layout of the information and code structure is up to you. Name your files staff_page.html and styles.css. You may use the file placeholder_1.jpg, or any other sample image file, to use as an image for each of the staff members. Please avoid using CSS frameworks (Bootstrap, Materialize, etc.).
