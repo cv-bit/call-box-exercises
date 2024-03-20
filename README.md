@@ -1,5 +1,8 @@
 # call-box-exercises
 
+## link to my deployed application
+- [Deployed app](https://cv-bit.github.io/call-box-exercises/index.html)
+
 ## links to all my responses
 
 ### Exercise 1: HTML & CSS
